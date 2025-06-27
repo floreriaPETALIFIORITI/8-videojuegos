@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juegos Interactivos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      background-color: #ffa0cf;
+      padding: 40px;
+      margin: 0;
+      overflow-x: hidden;
+      position: relative;
+      color: white;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      display: grid;
+      gap: 20px;
+      max-width: 400px;
+      margin: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .menu a {
+      display: block;
+      padding: 20px;
+      background-color: rgb(245, 72, 173);
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 15px;
+      transition: background 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #be0069;
+    }
+
+    #efecto-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+
+
+    #controles-musica {
+      margin: 30px auto;
+      max-width: 400px;
+      background: rgba(255 255 255 / 0.15);
+      padding: 15px;
+      border-radius: 10px;
+      color: white;
+      font-size: 1rem;
+      position: relative;
+      z-index: 3;
+      user-select: none;
+    }
+    #controles-musica button {
+      cursor: pointer;
+      background: #f548ad;
+      border: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    #controles-musica button:hover {
+      background-color: #be0069;
+    }
+  
+  </style>
+</head>
+<body>
+  <h1>Johana Mareli</h1>
+  <h1>🎮 Mis Juegos Interactivos 🎮</h1>
+
+  <div id="controles-musica">
+    <button id="btnPlay">▶ Reproducir</button>
+    <button id="btnMute">🔈 Silenciar</button>
+    <input type="range" id="barra" min="0" max="100" value="0" step="1" />
+  </div>
+
+  <div class="menu">
+    <a href="ajedrez/index.html">♛ Ajedrez</a>
+    <a href="ahorcado/index.html">🔤 Ahorcado</a>
+    <a href="scrabble/index.html">🧩 Scrabble</a>
+    <a href="buscaminas/index.html">💣 Buscaminas</a>
+    <a href="buscaminas_mejorado/index.html">💣✨ Buscaminas Mejorado</a>
+    <a href="tres-en-raya/index.html">⭕ Tres en Raya</a>
+    <a href="memorama/index.html">🧠 Memorama</a>
+    <a href="memorama_mejorado_1/index.html">🧠✨ Memorama Mejorado</a>
+  </div>
+
+  <canvas id="efecto-canvas"></canvas>
+
+  <audio id="audio" src="fdp.mp3" preload="metadata"></audio>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,23 @@
+.stats {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+#resetBtn {
+  padding: 5px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#resetBtn:hover {
+  background-color: #388e3c;
+}

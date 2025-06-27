@@ -1,0 +1,21 @@
+/juegos/
+│
+├── index.html        ← Página principal con el menú
+├── style.css         ← Estilo común para todos
+│
+├── damas-chinas/
+│   └── index.html, style.css, script.js
+├── ajedrez/
+│   └── index.html, style.css, script.js
+├── ahorcado/
+│   └── index.html, style.css, script.js
+├── scrabble/
+│   └── index.html, style.css, script.js
+├── buscaminas/
+│   └── index.html, style.css, script.js
+├── tres-en-raya/
+│   └── index.html, style.css, script.js
+├── memorama/
+│   └── index.html, style.css, script.js
+└── numero-secreto/
+    └── index.html, style.css, script.js

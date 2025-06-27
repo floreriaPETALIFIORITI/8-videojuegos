@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juegos Interactivos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+  <h1>🎮 Mis Juegos Interactivos</h1>
+  <div class="menu">
+   
+    <a href="ajedrez/index.html">♛ Ajedrez</a>
+    <a href="ahorcado/index.html">🔤 Ahorcado</a>
+    <a href="scrabble/index.html">🧩 Scrabble</a>
+    <a href="buscaminas/index.html">💣 Buscaminas</a>
+     <a href="buscaminas mejorado/index.html">💣✨ Buscaminas Mejorado</a>
+
+    <a href="tres-en-raya/index.html">⭕ Tres en Raya</a>
+    <a href="memorama/index.html">🧠 Memorama</a>
+    <a href="Memorama mejorado 1/index.html">🧠✨ Memorama Mejorado</a>
+  </div>
+</body>
+</html>
